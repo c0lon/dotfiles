@@ -10,12 +10,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'tpope/vim-fugitive'
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'nvie/vim-flake8'
-Plugin 'fatih/vim-go'
-Plugin 'dense-analysis/ale'
-Plugin 'maxmellon/vim-jsx-pretty'
 
 call vundle#end()
 
