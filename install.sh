@@ -18,26 +18,26 @@ sudo apt-get install -y vim tmux git
 
 
 # vimrc
-vimrc_path="$REPO/vimrc"
-vimrc_target="$HOME/.vimrc"
-if [ -e $vimrc_target ];
+repo_vimrc="$REPO/vimrc"
+home_vimrc="$HOME/.vimrc"
+if [ -e $home_vimrc ];
 then
     echo "vimrc already exists"
 else
-    echo "installing vimrc to $vimrc_target"
-    ln -s $vimrc_path $vimrc_target
+    echo "installing vimrc to $home_vimrc"
+    ln -s $repo_vimrc $home_vimrc
 fi
 
 
 # tmux
-tmuxrc_path="$REPO/tmux.conf"
-tmuxrc_target="$HOME/.tmux.conf"
-if [ -e $tmuxrc_target ];
+repo_tmuxrc="$REPO/tmux.conf"
+home_tmuxrc="$HOME/.tmux.conf"
+if [ -e $home_tmuxrc ];
 then
     echo "tmuxrc already exists"
 else
-    echo "installing tmuxrc to $tmuxrc_target"
-    ln -s $tmuxrc_path $tmuxrc_target
+    echo "installing tmuxrc to $home_tmuxrc"
+    ln -s $repo_tmuxrc $home_tmuxrc
 fi
 
 
