@@ -25,6 +25,7 @@ then
     echo "vimrc already exists"
 else
     echo "installing vimrc to $vimrc_target"
+    ln -s $vimrc_target $vimrc_path
 fi
 
 
@@ -36,6 +37,7 @@ then
     echo "tmuxrc already exists"
 else
     echo "installing tmuxrc to $tmuxrc_target"
+    ln -s $tmuxrc_target $tmuxrc_path
 fi
 
 
