@@ -1,2 +1,11 @@
 # dotfiles
-i like vim but i don't know the defaults
+
+_i like vim and tmux but i don't like the defaults_
+
+
+# Features
+
+- vimrc
+- tmux.conf
+- basic dev/python stuff
+- shell aliases
