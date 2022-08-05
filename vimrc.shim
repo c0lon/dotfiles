@@ -1,3 +1,7 @@
+set nocompatible
+filetype off
+set laststatus=2
+
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -9,3 +13,6 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end()
+
+set encoding=utf-8
+set ffs=unix,dos,mac
