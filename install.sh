@@ -30,8 +30,8 @@ fi
 
 
 # tmux
-tmuxrc_path="$REPO/tmuxrc"
-tmuxrc_target="$HOME/.tmuxrc"
+tmuxrc_path="$REPO/tmux.conf"
+tmuxrc_target="$HOME/.tmux.conf"
 if [ -e $tmuxrc_target ];
 then
     echo "tmuxrc already exists"
