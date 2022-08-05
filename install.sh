@@ -26,6 +26,10 @@ then
 else
     echo "installing vimrc to $home_vimrc"
     ln -s $repo_vimrc $home_vimrc
+
+    echo "installing vundle"
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    vim +PluginInstall +qall
 fi
 
 
