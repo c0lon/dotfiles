@@ -1,11 +1,13 @@
 set -e
 
 
+REPO_REMOTE="https://github.com/c0lon/dotfiles"
 REPO="$HOME/.dotfiles"
+
 if [ ! -e $REPO ];
 then
-    echo "git clone git@github.com:c0lon/dotfiles.git"
-    exit 1
+    sudo apt-get install git
+    git clone $REPO_REMOTE $REPO
 fi;
 
 
